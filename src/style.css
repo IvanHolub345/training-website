@@ -1,0 +1,16 @@
+html, body, #root { height: 100%; }
+body { margin: 0; background: linear-gradient(135deg, #eef8ff, #ffffff); }
+.app-shell { min-height: 100vh; display: flex; flex-direction: column; }
+.site-header { flex: 0 0 auto; }
+.site-main { flex: 1 1 auto; overflow-y: auto; padding: 2rem 0; }
+.site-footer { flex: 0 0 auto; }
+.navbar-nav .nav-link { min-width: 128px; text-align: center; border-radius: 999px; }
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover { background: rgba(13,110,253,.12); }
+.hero-card { border: 0; border-radius: 1.5rem; overflow: hidden; box-shadow: 0 1rem 2rem rgba(12,80,120,.15); }
+.hero-img { height: 360px; object-fit: cover; }
+.page-card { border: 0; border-radius: 1.25rem; box-shadow: 0 .75rem 1.5rem rgba(12,80,120,.12); }
+.info-badge { background: #e7f5ff; color: #055160; border: 1px solid #b6effb; }
+.carousel-img { height: 520px; object-fit: cover; border-radius: 1rem; }
+.toc { position: sticky; top: 1rem; }
+.footer-text { font-size: .95rem; }
+.form-control:focus { box-shadow: 0 0 0 .2rem rgba(13,110,253,.15); }
